@@ -10,6 +10,7 @@ namespace SafariPark.Models
     {
         public string Nickname { get; set; }
         public string Kind { get; set; }
+        public double Weight { get; set; }
         public int Id { get; set; }
         public string Diet { get; set; }
         public bool NeedPool { get; set; }
