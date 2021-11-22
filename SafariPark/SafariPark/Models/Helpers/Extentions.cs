@@ -13,6 +13,14 @@ namespace SafariPark.Models.Helpers
             return animal.Diet;
         }
 
-        public static Animal Find
+        public static Animal FindByKind(this Animal animal, AnimalKinds kind)
+        {
+            if (animal.Kind == kind)
+            {
+                return animal;
+            }
+
+            return null;
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariPark.Models
 {
-    public class ColdBloodedAnimal : Animal
+    public abstract class ColdBloodedAnimal : Animal
     {
     }
 }
